@@ -17,5 +17,12 @@ go install github.com/tomnomnom/waybackurls@latest
 echo""
 echo "install httpx"
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+echo ""
+
+echo"install libs python"
+pip3 install requests
+pip3 install termcolor
+pip3 install tqdm
+
 
 mv ~/go/bin/* /usr/bin/
